@@ -10,7 +10,7 @@
 # ----------------------------------------------------- 
 
 option1="  lock"
-option2="  logout"
+option2="  logout"
 option3="  reboot"
 option4="  power off"
 
