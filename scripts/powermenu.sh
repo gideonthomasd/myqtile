@@ -24,10 +24,13 @@ case $choice in
 	$option1)
 		slock ;;
 	$option2)
-		qtile cmd-obj -o cmd -f shutdown ;;
+		#qtile cmd-obj -o cmd -f shutdown ;;
+  		pkill qtile ;;
 	$option3)
-		systemctl reboot ;;
+		#systemctl reboot ;;
+  		sudo reboot ;;
 	$option4)
-		systemctl poweroff ;;
+ 		sudo poweroff ;;
+		#systemctl poweroff ;;
 esac
 
