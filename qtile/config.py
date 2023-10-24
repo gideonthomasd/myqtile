@@ -44,7 +44,7 @@ platform = int(os.popen("cat /sys/class/dmi/id/chassis_type").read())
 # Set default apps
 # --------------------------------------------------------
 terminal = "alacritty"        
-browser = "brave"
+browser = "brave-browser"
 manager = "thunar"
 # browser = "brave"
 
@@ -233,7 +233,7 @@ widget_list = [
                     background=None,
                     #"#006666",
                     foreground='#ff3399',
-                    mouse_callbacks={'Button3': lambda: qtile.cmd_spawn("jgmenu_run"), 'Button1': lambda: qtile.cmd_spawn("/home/phil/dotfiles/scripts/applauncher.sh")},
+                    mouse_callbacks={'Button3': lambda: qtile.cmd_spawn("jgmenu_run"), 'Button1': lambda: qtile.cmd_spawn(home + "/dotfiles/scripts/applauncher.sh")},
                     ),
      widget.TextBox(
                        text='   ',
@@ -438,7 +438,7 @@ widget_list = [
         fontsize=24,
         foreground='#9999FF',
         #desc='Notes',
-        mouse_callbacks={"Button1": lambda: qtile.cmd_spawn("/home/phil/dotfiles/scripts/powermenu.sh")},
+        mouse_callbacks={"Button1": lambda: qtile.cmd_spawn(home + "/dotfiles/scripts/powermenu.sh")},
     ),
     #widget.QuickExit(
     #    default_text=" ",
