@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install remmina remmina-common remmina-plugin-rdp remmina-plugin-secret remmina-plugin-spice
+sudo apt install remmina remmina-common remmina-plugin-rdp remmina-plugin-secret
 
 #Click Add
 #In protocol use RDP
