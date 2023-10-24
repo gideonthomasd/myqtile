@@ -31,7 +31,7 @@ dunst &
 # Launch polybar
 #~/.config/polybar/launch.sh &
 parcellite &
-#sleep 1
+#blueman-applet &
 nm-applet &
 
 # Setup Wallpaper and update colors
