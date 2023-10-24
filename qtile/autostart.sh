@@ -21,7 +21,7 @@ setxkbmap gb
 
 # Load picom
 picom &
-
+lxpolkit &
 # Load power manager
 xfce4-power-manager &
 
