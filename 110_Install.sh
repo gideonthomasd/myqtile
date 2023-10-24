@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt install pulseaudio curl neofetch dmenu rofi thunar picom lxtask lxappearance lxpolkit aptitude moc geany fonts-jetbrains-mono htop parcellite calcurse xterm gsimplecal -y
 sudo apt install fonts-ubuntu fonts-ubuntu-console r-cran-fontawesome fonts-font-awesome fonts-fork-awesome fonts-powerline font-manager pavucontrol gdebi gdebi-core i3lock-fancy -y
-sudo apt install python3-psutil lxterminal nitrogen mousepad -y 
+sudo apt install python3-psutil lxterminal nitrogen mousepad blueman exa -y 
 sudo apt install ueberzug ranger alacritty gvfs gwenview dunst polybar -y
 
 ##### Qtile #####################
