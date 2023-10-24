@@ -22,7 +22,8 @@ choice=$(echo -e "$options" | rofi -dmenu -config ~/.config/rofi/config-power.ra
 
 case $choice in
 	$option1)
-		slock ;;
+		#slock ;;
+  		i3lock-fancy ;;
 	$option2)
 		#qtile cmd-obj -o cmd -f shutdown ;;
   		pkill qtile ;;
