@@ -13,6 +13,16 @@ chmod +x *.sh
 cp -r * ~/.config/qtile
 cd ..
 
+#### Geany neofetch
+mkdir -p ~/.config/geany/colorschemes
+cd colorschemes
+cp -r * ~/.config/geany/colorschemes
+cd ..
+cp geany.conf ~/.config/geany/geany.conf
+
+mkdir -p ~/.config/neofetch
+cp config.conf ~/.config/neofetch/config.conf
+
 ##### Polybar ###################
 cd polybar
 chmod +x *.sh
