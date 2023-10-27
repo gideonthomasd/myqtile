@@ -26,7 +26,7 @@ case $choice in
   		i3lock-fancy ;;
 	$option2)
 		#qtile cmd-obj -o cmd -f shutdown ;;
-  		pkill qtile ;;
+  		pkill qtile || pkill i3 ;;
 	$option3)
 		#systemctl reboot ;;
   		sudo reboot ;;
