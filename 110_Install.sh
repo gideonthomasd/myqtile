@@ -56,6 +56,7 @@ cd ..
 
 mkdir -p ~/.config/ranger
 cd ranger
+chmod +x *.sh
 cp -r * ~/.config/ranger
 cd ..
 
