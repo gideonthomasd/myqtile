@@ -118,4 +118,4 @@ eval "$(starship init bash)"
 # PFETCH
 # -----------------------------------------------------
 #echo ""
-#neofetch
+neofetch
